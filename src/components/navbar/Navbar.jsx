@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["&lt;Hussein Hassan /&gt;"],
+      strings: ["&lt;Portfolio /&gt;"],
       startDelay: 300,
       typeSpeed: 30,
       showCursor: true,
@@ -40,13 +40,13 @@ export const Navbar = () => {
           <span ref={el}></span>
         </div>
         <div className="social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/husseinhhassan/">
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/husseinhassans/">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://github.com/husseinhassans">
             <img src="/github.png" alt="" />
           </a>
         </div>
