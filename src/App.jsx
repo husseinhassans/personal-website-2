@@ -2,6 +2,7 @@ import "./app.scss";
 import { Navbar } from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
+import Experience from "./components/experience/Experience";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <section id="Experience">
         <Parallax type="experience" />
       </section>
-      <section>Services</section>
+      <Experience />
       <section id="Projects">
         <Parallax type="projects" />
       </section>
