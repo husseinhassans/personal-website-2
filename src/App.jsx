@@ -3,6 +3,7 @@ import { Navbar } from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Experience from "./components/experience/Experience";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
@@ -27,7 +28,9 @@ const App = () => {
       <section>Interests</section>
       <section id="About">Parallax</section>
       <section>About</section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 };
