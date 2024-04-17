@@ -4,10 +4,12 @@ import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
+import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
