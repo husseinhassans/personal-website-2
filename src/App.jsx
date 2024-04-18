@@ -14,25 +14,25 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section id="Experience">
+      {/* <section id="Experience">
         <Parallax type="experience" />
-      </section>
-      <Experience />
+      </section> */}
+      {/* <Experience />
       <section id="Projects">
         <Parallax type="projects" />
-      </section>
-      <section>Portfolio1</section>
+      </section> */}
+      {/* <section>Portfolio1</section>
       <section>Portfolio2</section>
-      <section>Portfolio3</section>
-      <section id="Academics">
+      <section>Portfolio3</section> */}
+      {/* <section id="Academics">
         <Parallax />
-      </section>
-      <section>Interests</section>
-      <section id="About">Parallax</section>
-      <section>About</section>
-      <section id="Contact">
+      </section> */}
+      {/* <section>Interests</section> */}
+      {/* <section id="About">Parallax</section> */}
+      {/* <section>About</section> */}
+      {/* <section id="Contact">
         <Contact />
-      </section>
+      </section> */}
     </div>
   );
 };
