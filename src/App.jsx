@@ -28,11 +28,11 @@ const App = () => {
         <Parallax />
       </section>
       {/* <section>Interests</section> */}
-      {/* <section id="About">Parallax</section> */}
+      <section id="About">Parallax</section>
       {/* <section>About</section> */}
-      {/* <section id="Contact">
+      <section id="Contact">
         <Contact />
-      </section> */}
+      </section>
     </div>
   );
 };

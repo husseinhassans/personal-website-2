@@ -29,7 +29,7 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: "-1300%",
+    x: "-350%",
     transition: {
       repeat: Infinity,
       repeatType: "mirror",
@@ -54,10 +54,10 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Software Dev & ML Engineer
           </motion.h1>
-          <motion.div className="buttons" variants={textVariants}>
+          {/* <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants}>Projects</motion.button>
             <motion.button variants={textVariants}>Contact</motion.button>
-          </motion.div>
+          </motion.div> */}
           <motion.img
             variants={textVariants}
             animate="scrollButton"
@@ -65,15 +65,16 @@ const Hero = () => {
             alt=""
           />
         </motion.div>
-        <motion.div
-          className="slidingTextContainer"
-          variants={sliderVariants}
-          initial="initial"
-          animate="animate"
-        >
-          Developer AI Enthusiast Financial Analyst Pianist Chef
-        </motion.div>
       </div>
+      <motion.div
+        className="slidingTextContainer"
+        variants={sliderVariants}
+        initial="initial"
+        animate="animate"
+      >
+        Developer AI Enthusiast Financial Analyst Pianist Chef
+      </motion.div>
+
       {/* idea, use this link and create a new picture with you having some outlines for the profile to look cooler:
       https://creativecloud.adobe.com/discover/article/how-to-make-a-repeated-outline-image-in-adobe-photoshop */}
       <div className="imageContainer">
