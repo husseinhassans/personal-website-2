@@ -30,7 +30,7 @@ const Links = () => {
     "Homepage",
     "Experience",
     "Projects",
-    "Interests",
+    // "Interests",
     "About",
     "Contact",
   ];

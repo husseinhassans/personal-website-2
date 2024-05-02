@@ -5,6 +5,8 @@ import Parallax from "./components/parallax/Parallax";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
+import Projects from "./components/projects/Projects";
+import About from "./components/about/About";
 
 const App = () => {
   return (
@@ -21,15 +23,14 @@ const App = () => {
       <section id="Projects">
         <Parallax type="projects" />
       </section>
-      {/* <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section> */}
-      <section id="Academics">
+      <Projects />
+      {/* <section id="Academics">
         <Parallax />
-      </section>
+      </section> */}
       {/* <section>Interests</section> */}
-      <section id="About">Parallax</section>
-      {/* <section>About</section> */}
+      <section id="About">
+        <About />
+      </section>
       <section id="Contact">
         <Contact />
       </section>

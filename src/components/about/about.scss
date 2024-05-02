@@ -1,0 +1,66 @@
+@import "../../app.scss";
+
+.about {
+  height: 100vh;
+  color: lightgray; // Matches theme
+
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: orange;
+    font-size: 23px;
+
+    @include mobile {
+      padding-top: calc(100vh - 80px);
+    }
+  }
+
+  .wrapper {
+    max-width: 1366px;
+    margin: auto; // Centers the content
+    padding: 20px; // Adds space around content
+    display: flex;
+    gap: 20px; // Adds space between elements
+
+    @include mobile {
+      padding: 10px; // Reduce padding for smaller screens
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .coursewrapper {
+        display: flex;
+        ul {
+          padding-left: 20px; // Indent lists
+          margin: 10px 0;
+
+          li {
+            margin-bottom: 5px; // Space between list items
+          }
+        }
+      }
+    }
+  }
+
+  .uclaImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Center images horizontally
+
+    img {
+      border-radius: 10px; // Adds rounded corners
+      margin: 10px 0; // Space between images
+      width: 100%; // Ensure images take full width of their container
+
+      @include mobile {
+        max-width: 90%; // Restrict width on smaller screens
+      }
+    }
+  }
+}
