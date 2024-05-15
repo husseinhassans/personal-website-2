@@ -78,7 +78,7 @@ const Hero = () => {
       {/* idea, use this link and create a new picture with you having some outlines for the profile to look cooler:
       https://creativecloud.adobe.com/discover/article/how-to-make-a-repeated-outline-image-in-adobe-photoshop */}
       <div className="imageContainer">
-        <img src="/Subject 2.png" alt="" />
+        <img src="/NoBackground.png" alt="" />
       </div>
     </div>
   );
